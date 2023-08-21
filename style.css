@@ -1,0 +1,101 @@
+* {
+
+    box-sizing: border-box;
+
+}
+
+
+.judul {
+
+    text-align: center;
+}
+
+body {
+
+    overflow: hidden;
+    
+}
+
+
+.container-game {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 60%;
+    
+    
+}
+
+.kotak {
+    position: relative;
+    padding: 1rem;
+    padding-bottom: 0rem;
+    overflow: hidden;
+    margin-bottom: 5rem;
+    height: 15rem;
+    
+}
+
+
+
+
+.tanah {
+    
+    width: 15rem;
+    height: 4.1rem;
+    background-image: url(gambar/tanah.png);
+    background-position: 0rem -5.9rem;
+    background-size: 15rem 15rem;
+    position: relative;
+    background-repeat: no-repeat;
+    z-index: 2;
+    bottom: -10rem;
+    
+   
+}
+
+
+
+.tikus {
+
+    width: 15rem;
+    height: 15rem;
+    background-image: url(gambar/tikus.png);
+    background-size: 11rem 11rem;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 3rem;
+    bottom: -10rem;
+}
+
+
+
+.tikus.atas {
+
+    bottom: -1rem;
+
+
+}
+
+
+/* tombol  */
+
+
+.tombol {
+
+    position: absolute;
+    top: 3rem;
+    border-radius: 50%;
+    padding: 2rem 1rem;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+
+}
+
+.bawah {
+    padding: 1rem 2rem;
+    margin-left: 1rem;
+    top: 17rem;
+
+}
