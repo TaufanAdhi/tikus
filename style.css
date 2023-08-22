@@ -103,7 +103,7 @@ body {
 
 
 
-@media (max-width:590px) {
+@media (max-width:425px) {
 
     .tombol {
         top: 35rem;
@@ -121,31 +121,36 @@ body {
         margin: auto;
         width: 100%;
     }
+
     .kotak {
+
         position: relative;
         padding: 1rem;
         padding-bottom: 0rem;
         overflow: hidden;
         margin-bottom: 5rem;
         height: 10rem;
-        width: 10rem;
+        width: 8rem;
+
     }
+
     .tikus {
-        width: 9rem;
-        height: 10rem;
+        width: 8rem;
+        height: 8rem;
         background-image: url(gambar/tikus.png);
-        background-size: 7rem 7rem;
+        background-size: 6rem 5rem;
         background-repeat: no-repeat;
         position: absolute;
-        left: 1.6rem;
-        bottom: -6rem;
+        left: 1.4rem;
+        bottom: -5rem;
     }
+
     .tanah {
-        width: 10rem;
+        width: 8rem;
         height: 4.1rem;
         background-image: url(gambar/tanah.png);
-        background-position: -0.6rem -2.9rem;
-        background-size: 10rem 10rem;
+        background-position: -0.6rem -1.7rem;
+        background-size: 8rem 8rem;
         position: relative;
         background-repeat: no-repeat;
         z-index: 2;
