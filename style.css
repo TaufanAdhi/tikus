@@ -13,7 +13,7 @@
 body {
 
     overflow: hidden;
-    
+
 }
 
 
@@ -22,8 +22,8 @@ body {
     flex-wrap: wrap;
     margin: auto;
     width: 60%;
-    
-    
+
+
 }
 
 .kotak {
@@ -33,14 +33,14 @@ body {
     overflow: hidden;
     margin-bottom: 5rem;
     height: 15rem;
-    
+
 }
 
 
 
 
 .tanah {
-    
+
     width: 15rem;
     height: 4.1rem;
     background-image: url(gambar/tanah.png);
@@ -50,8 +50,8 @@ body {
     background-repeat: no-repeat;
     z-index: 2;
     bottom: -10rem;
-    
-   
+
+
 }
 
 
@@ -98,4 +98,57 @@ body {
     margin-left: 1rem;
     top: 17rem;
 
+}
+
+
+
+
+@media (max-width:590px) {
+
+    .tombol {
+        top: 35rem;
+    }
+
+    .bawah {
+        top: 36rem;
+        left: 50%;
+
+    }
+
+    .container-game {
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        width: 100%;
+    }
+    .kotak {
+        position: relative;
+        padding: 1rem;
+        padding-bottom: 0rem;
+        overflow: hidden;
+        margin-bottom: 5rem;
+        height: 10rem;
+        width: 10rem;
+    }
+    .tikus {
+        width: 9rem;
+        height: 10rem;
+        background-image: url(gambar/tikus.png);
+        background-size: 7rem 7rem;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 1.6rem;
+        bottom: -6rem;
+    }
+    .tanah {
+        width: 10rem;
+        height: 4.1rem;
+        background-image: url(gambar/tanah.png);
+        background-position: -0.6rem -2.9rem;
+        background-size: 10rem 10rem;
+        position: relative;
+        background-repeat: no-repeat;
+        z-index: 2;
+        bottom: -5.4rem;
+    }
 }
